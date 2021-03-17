@@ -1,0 +1,51 @@
+:root
+{
+    --background: #B1624EFF;
+    --foreground:#B1B3B3FF;
+}
+
+body
+{
+    background-color: var(--background);
+    color: var(--foreground);
+    font-size: 36px;
+}
+
+a:visited{
+    color: var(--foreground); 
+}
+
+/*table, th, td,tr {
+  border: 3px solid var(--foreground);
+}*/
+
+
+tr:nth-child(even)
+{
+    background-color: var(--foreground);
+    color:var(--background)
+}
+
+table
+{
+   border-collapse:collapse;
+}
+
+.education
+{
+    width:200px;
+    
+}
+
+tr,td
+{
+    font-size:24px;
+    width:80px;
+  
+}
+td
+{
+ 
+    text-align: right;
+   
+}
