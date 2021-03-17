@@ -11,6 +11,11 @@ body
     font-size: 36px;
 }
 
+a
+{
+    color: var(--foreground); 
+}
+
 a:visited{
     color: var(--foreground); 
 }
